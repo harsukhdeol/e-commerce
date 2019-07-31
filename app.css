@@ -1,0 +1,24 @@
+:root{
+    --mainBlue: #2a2a72;
+    --lightblue: #009ffd;
+    --mainWhite: #f3f3f3;
+    --mainDark: #232528;
+    --mainYellow: #ffa400;
+}
+
+body{
+    font-family: "Century Gothic", sans-serif  !important;
+    background: var(--mainWhite) !important;
+    color: var(--mainDark) !important;
+}
+.text-title{
+    font-family: "Century Gothic", sans-serif  !important;
+    letter-spacing: 3em;
+    text-transform: uppercase;
+}
+.text-blue{
+    color: var(--mainBlue);
+}
+.text-lightblue{
+    color: var(--lightblue);
+}
